@@ -31,9 +31,3 @@ jobs:
         with:
           name: code
           path: .
-  Release:
-    name: Release GitHub Actions
-    runs-on: ubuntu-latest
-    steps:
-      - uses: technote-space/release-github-actions@v6
-    needs: Build
